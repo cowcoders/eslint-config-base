@@ -1,5 +1,5 @@
 {
-  "name": "@coecoders/eslint-config-base",
+  "name": "@cowcoders/eslint-config-base",
   "version": "1.1.0",
   "description": "ESLint config basic configuration",
   "keywords": [],
