@@ -1,0 +1,25 @@
+{
+  "name": "@coecoders/eslint-config-base",
+  "version": "1.0.0",
+  "description": "ESLint config basic configuration",
+  "keywords": [],
+  "homepage": "https://github.com/cowcoders/eslint-config-base#readme",
+  "bugs": {
+    "url": "https://github.com/cowcoders/eslint-config-base/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cowcoders/eslint-config-base.git"
+  },
+  "license": "ISC",
+  "author": "cowcoders",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo \"Build here!\"",
+    "lint": "eslint --max-warnings 0 . --ext .js,.ts,.tsx",
+    "test": "npm run lint"
+  },
+  "dependencies": {
+    "eslint": "8.47.0"
+  }
+}
