@@ -19,7 +19,10 @@
     "lint": "eslint --max-warnings 0 . --ext .js,.ts,.tsx",
     "test": "npm run lint"
   },
-  "dependencies": {
+  "devDependencies": {
     "eslint": "8.47.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=8.47.0"
   }
 }
